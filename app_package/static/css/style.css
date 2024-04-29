@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+:root {
+  /* Color Palette source: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 */
+  --base-background: #1D3557;
+  --secondary-background: #457B9D;
+  --tertiary-background: #A8DADC;
+  --primary-text: #F1FAEE;
+  --text-icons: #CCCCCC;
+  --hightlights: #E63946;
+  --hyperlinks-primary:var(--hightlights);
+  --tw-text-opacity: .7;
+  --hyperlinks-secondary: rgb(29 255 158 / var(--tw-text-opacity));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html body {
+  background-color: var(--secondary-background);
+  color: var(--primary-text);
+}
+
+.main_styling {
+  padding: 3rem 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
